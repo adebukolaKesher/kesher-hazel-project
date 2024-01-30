@@ -1,3 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
 .hero{
+    height: 90vh;
     background-color: #f08e80;
+} 
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 24px 32px;
 }
