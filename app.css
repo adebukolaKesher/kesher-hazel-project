@@ -19,7 +19,6 @@ body{
     align-items: center;
     color: white;
     padding: 24px 32px;
-
 } 
 
 .navbar .links a{
@@ -27,9 +26,9 @@ body{
     text-decoration: none;
     margin-right: 16px;
     font-size: 1.2rem;
-    
-}
-.navbar p{
+    }
+
+    .navbar p{
     font-size: 2rem;
     font-weight: bold;
     margin: 0;
@@ -56,17 +55,17 @@ body{
 .two-column-section{
     font-size: 1.2rem;
 } 
-.two-column-section p{
-    width: 50%;
+.two-column-section >p{
+    width: 40%;
     box-sizing: border-box;
     float: left;
 } 
 
 .two-column-section .skills{
-    width: 50%;
+    width: 40%;
     float: left;
     box-sizing: border-box;
-    padding: 8px;
+    padding: 10px;
     list-style: none;
 } 
 .two-column-section .skills li{
@@ -74,4 +73,33 @@ body{
     float: left;
     font-size: 1.2rem;
     margin: 2.8px 0;
+} 
+.blog-section{
+    background-color:white;
+    padding: 25px 0;
+} 
+.blog-content{
+    padding: 0 15%;
+} 
+.two-column-section .blog-posts{
+width: 40%;
+float: left;
+} 
+.blog-heading{
+font-size: 1.5rem;
+} 
+.blog-text{
+    font-size: 1rem;
+} 
+.blog-posts{
+margin-top: 32px;
+}
+
+.blog-posts .blog-date {
+    font-size: 0.9rem;
+    color: grey;
+    margin-bottom: 32px;
+  }
+.blog-posts p{
+margin: 8px 0;
 }
